@@ -18,7 +18,7 @@ function App() {
           <nav className={`nav-links ${menuOpen ? "mobile-open" : ""}`}>
   <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
   <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
-  <a href="#academy" onClick={() => setMenuOpen(false)}>Academy</a>
+  <a href="#courses" onClick={() => setMenuOpen(false)}>Courses</a>
   <a href="#experience" onClick={() => setMenuOpen(false)}>Experience</a>
   <a href="#events" onClick={() => setMenuOpen(false)}>Events</a>
   <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
@@ -32,7 +32,7 @@ function App() {
   {menuOpen ? "✕" : "☰"}
 </button>
 
-          <a href="#academy" className="nav-button">
+          <a href="#courses" className="nav-button">
             Join a Class
           </a>
         </div>
@@ -63,7 +63,7 @@ function App() {
               </p>
 
               <div className="hero-actions">
-                <a href="#academy" className="primary-button">
+                <a href="#courses" className="primary-button">
                   Explore Courses
                   <span>→</span>
                 </a>
@@ -854,7 +854,7 @@ function App() {
     <div className="footer-links">
       <h3>Quick Links</h3>
       <a href="#about">About Us</a>
-      <a href="#academy">Academy</a>
+      <a href="#courses">Courses</a>
       <a href="#experience">The UHT Experience</a>
       <a href="#events">Events</a>
       <a href="#contact">Contact</a>
@@ -862,10 +862,10 @@ function App() {
 
     <div className="footer-links">
       <h3>Our Courses</h3>
-      <a href="#academy">Web Development</a>
-      <a href="#academy">Data Analytics</a>
-      <a href="#academy">UI/UX Design</a>
-      <a href="#academy">Digital Marketing</a>
+      <a href="#courses">Web Development</a>
+      <a href="#courses">Data Analytics</a>
+      <a href="#courses">UI/UX Design</a>
+      <a href="#courses">Digital Marketing</a>
     </div>
 
     <div className="footer-contact">
